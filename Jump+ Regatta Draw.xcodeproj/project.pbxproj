@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC08D15E1974BE5900772E56 /* file.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC08D15D1974BE5900772E56 /* file.swift */; };
+		FC08D1601974C4A500772E56 /* s.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FC08D15F1974C4A500772E56 /* s.jpg */; };
+		FC120A0819750660000F4959 /* jump.png in Resources */ = {isa = PBXBuildFile; fileRef = FC120A0719750660000F4959 /* jump.png */; };
+		FC2BD8AC197467A10062648F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2BD8AB197467A10062648F /* main.swift */; };
+		FC2BD8AE197467A10062648F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2BD8AD197467A10062648F /* AppDelegate.swift */; };
+		FC2BD8B0197467A10062648F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC2BD8AF197467A10062648F /* Images.xcassets */; };
+		FC2BD8B3197467A10062648F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC2BD8B1197467A10062648F /* MainMenu.xib */; };
+		FC2BD8BF197467A20062648F /* TicketDrawTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2BD8BE197467A20062648F /* TicketDrawTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC2BD8B9197467A20062648F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC2BD89E197467A10062648F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC2BD8A5197467A10062648F;
+			remoteInfo = TicketDraw;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC08D15D1974BE5900772E56 /* file.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = file.swift; sourceTree = "<group>"; };
+		FC08D15F1974C4A500772E56 /* s.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = s.jpg; path = Images.xcassets/s.jpg; sourceTree = "<group>"; };
+		FC120A0719750660000F4959 /* jump.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = jump.png; path = Images.xcassets/jump.png; sourceTree = "<group>"; };
+		FC2BD8A6197467A10062648F /* Jump+ Regatta Draw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jump+ Regatta Draw.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC2BD8AA197467A10062648F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC2BD8AB197467A10062648F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		FC2BD8AD197467A10062648F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC2BD8AF197467A10062648F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FC2BD8B2197467A10062648F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FC2BD8B8197467A20062648F /* Jump+ Regatta DrawTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jump+ Regatta DrawTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC2BD8BD197467A20062648F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC2BD8BE197467A20062648F /* TicketDrawTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketDrawTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC2BD8A3197467A10062648F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2BD8B5197467A20062648F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC2BD89D197467A10062648F = {
+			isa = PBXGroup;
+			children = (
+				FC2BD8A8197467A10062648F /* TicketDraw */,
+				FC2BD8BB197467A20062648F /* TicketDrawTests */,
+				FC2BD8A7197467A10062648F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC2BD8A7197467A10062648F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC2BD8A6197467A10062648F /* Jump+ Regatta Draw.app */,
+				FC2BD8B8197467A20062648F /* Jump+ Regatta DrawTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC2BD8A8197467A10062648F /* TicketDraw */ = {
+			isa = PBXGroup;
+			children = (
+				FC2BD8AD197467A10062648F /* AppDelegate.swift */,
+				FC2BD8AF197467A10062648F /* Images.xcassets */,
+				FC120A0719750660000F4959 /* jump.png */,
+				FC08D15F1974C4A500772E56 /* s.jpg */,
+				FC2BD8B1197467A10062648F /* MainMenu.xib */,
+				FC2BD8A9197467A10062648F /* Supporting Files */,
+				FC08D15D1974BE5900772E56 /* file.swift */,
+			);
+			path = TicketDraw;
+			sourceTree = "<group>";
+		};
+		FC2BD8A9197467A10062648F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC2BD8AA197467A10062648F /* Info.plist */,
+				FC2BD8AB197467A10062648F /* main.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC2BD8BB197467A20062648F /* TicketDrawTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC2BD8BE197467A20062648F /* TicketDrawTests.swift */,
+				FC2BD8BC197467A20062648F /* Supporting Files */,
+			);
+			path = TicketDrawTests;
+			sourceTree = "<group>";
+		};
+		FC2BD8BC197467A20062648F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC2BD8BD197467A20062648F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC2BD8A5197467A10062648F /* Jump+ Regatta Draw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC2BD8C2197467A20062648F /* Build configuration list for PBXNativeTarget "Jump+ Regatta Draw" */;
+			buildPhases = (
+				FC2BD8A2197467A10062648F /* Sources */,
+				FC2BD8A3197467A10062648F /* Frameworks */,
+				FC2BD8A4197467A10062648F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jump+ Regatta Draw";
+			productName = TicketDraw;
+			productReference = FC2BD8A6197467A10062648F /* Jump+ Regatta Draw.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC2BD8B7197467A20062648F /* Jump+ Regatta DrawTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC2BD8C5197467A20062648F /* Build configuration list for PBXNativeTarget "Jump+ Regatta DrawTests" */;
+			buildPhases = (
+				FC2BD8B4197467A20062648F /* Sources */,
+				FC2BD8B5197467A20062648F /* Frameworks */,
+				FC2BD8B6197467A20062648F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC2BD8BA197467A20062648F /* PBXTargetDependency */,
+			);
+			name = "Jump+ Regatta DrawTests";
+			productName = TicketDrawTests;
+			productReference = FC2BD8B8197467A20062648F /* Jump+ Regatta DrawTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC2BD89E197467A10062648F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Jon Grenning";
+				TargetAttributes = {
+					FC2BD8A5197467A10062648F = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					FC2BD8B7197467A20062648F = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = FC2BD8A5197467A10062648F;
+					};
+				};
+			};
+			buildConfigurationList = FC2BD8A1197467A10062648F /* Build configuration list for PBXProject "Jump+ Regatta Draw" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC2BD89D197467A10062648F;
+			productRefGroup = FC2BD8A7197467A10062648F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC2BD8A5197467A10062648F /* Jump+ Regatta Draw */,
+				FC2BD8B7197467A20062648F /* Jump+ Regatta DrawTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC2BD8A4197467A10062648F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC08D1601974C4A500772E56 /* s.jpg in Resources */,
+				FC2BD8B0197467A10062648F /* Images.xcassets in Resources */,
+				FC2BD8B3197467A10062648F /* MainMenu.xib in Resources */,
+				FC120A0819750660000F4959 /* jump.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2BD8B6197467A20062648F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC2BD8A2197467A10062648F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2BD8AE197467A10062648F /* AppDelegate.swift in Sources */,
+				FC08D15E1974BE5900772E56 /* file.swift in Sources */,
+				FC2BD8AC197467A10062648F /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC2BD8B4197467A20062648F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2BD8BF197467A20062648F /* TicketDrawTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC2BD8BA197467A20062648F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC2BD8A5197467A10062648F /* Jump+ Regatta Draw */;
+			targetProxy = FC2BD8B9197467A20062648F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC2BD8B1197467A10062648F /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC2BD8B2197467A10062648F /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC2BD8C0197467A20062648F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC2BD8C1197467A20062648F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FC2BD8C3197467A20062648F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TicketDraw/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "Jump+ Regatta Draw";
+			};
+			name = Debug;
+		};
+		FC2BD8C4197467A20062648F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TicketDraw/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "Jump+ Regatta Draw";
+			};
+			name = Release;
+		};
+		FC2BD8C6197467A20062648F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TicketDraw.app/Contents/MacOS/TicketDraw";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TicketDrawTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "Jump+ Regatta DrawTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		FC2BD8C7197467A20062648F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TicketDraw.app/Contents/MacOS/TicketDraw";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TicketDrawTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "Jump+ Regatta DrawTests";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC2BD8A1197467A10062648F /* Build configuration list for PBXProject "Jump+ Regatta Draw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC2BD8C0197467A20062648F /* Debug */,
+				FC2BD8C1197467A20062648F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC2BD8C2197467A20062648F /* Build configuration list for PBXNativeTarget "Jump+ Regatta Draw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC2BD8C3197467A20062648F /* Debug */,
+				FC2BD8C4197467A20062648F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC2BD8C5197467A20062648F /* Build configuration list for PBXNativeTarget "Jump+ Regatta DrawTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC2BD8C6197467A20062648F /* Debug */,
+				FC2BD8C7197467A20062648F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC2BD89E197467A10062648F /* Project object */;
+}
